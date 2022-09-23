@@ -1,15 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <aluno-media></aluno-media>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+//import alunomedia from './components/alunomedia.vue'
+import AlunoMedia from './components/AlunoMedia.vue'
 
 export default {
-  name: 'App',
+
   components: {
-    HelloWorld
+    AlunoMedia,
   }
 }
 </script>
