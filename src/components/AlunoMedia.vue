@@ -19,7 +19,7 @@
             <th>Nome</th>
             <th>Situação</th>
         </tr>
-        <tr v-for='item in mediaAlunos' :key="item.Situacao" id="linhaTabela"  :class="[item.Situacao]"> 
+        <tr v-for='item in mediaAlunos' :key="item.Situacao" :class="[item.Situacao]"> 
             <td>
                 {{item.Nome}}
             </td>
