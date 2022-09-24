@@ -49,7 +49,7 @@ export default {
             if( (this.nomeAluno) && (this.notaAluno1) && (this.notaAluno2) && (this.notaAluno3) ){
                 let mediaApr = (this.notaAluno1 + (this.notaAluno2 * 2) + (this.notaAluno3 * 3)) / 6
                 if (mediaApr > 6.9) {
-                    console.log(this.mediaAlunos.push ({Nome: this.nomeAluno, Situacao: 'Aprovado'}))
+                    (this.mediaAlunos.push ({Nome: this.nomeAluno, Situacao: 'Aprovado'}))
                 }
                 else{
                     this.mediaAlunos.push ({Nome: this.nomeAluno, Situacao: 'Reprovado'})
